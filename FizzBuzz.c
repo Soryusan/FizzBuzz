@@ -7,17 +7,17 @@ int main (void) {
 
    for (ndx = 0; ndx <= MAX; ndx++) {
 
-		if (isFizz = !(ndx % 3)) {
-   		printf("Fizz");
-   	}
-   	if (isBuzz = !(ndx % 5)) {
-   		printf("Buzz");
-   	}
-   	if (!isFizz && !isBuzz) {
-   		printf("%d", ndx);
-   	}
+      if (isFizz = !(ndx % 3)) {
+         printf("Fizz");
+      }
+      if (isBuzz = !(ndx % 5)) {
+         printf("Buzz");
+      }
+      if (!isFizz && !isBuzz) {
+         printf("%d", ndx);
+      }
 
-   	printf("\n");
+      printf("\n");
    }
 
    return 0;
