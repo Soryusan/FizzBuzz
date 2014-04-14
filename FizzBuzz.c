@@ -3,25 +3,21 @@
 #define MAX 200
 
 int main (void) {
-   int i, isFizz, isBuzz;
+   int ndx, isFizz, isBuzz;
 
-   for (i = 0; i < MAX; i++) {
-   	isFizz = (i % 3 == 0);
-   	isBuzz = (i % 5 == 0);
+   for (ndx = 0; ndx <= MAX; ndx++) {
 
-   	if (isFizz && isBuzz) {
-   		printf("Fizz Buzz\n");
+		if (isFizz = !(ndx % 3)) {
+   		printf("Fizz");
    	}
-   	else if (isFizz) {
-   		printf("Fizz\n");
+   	if (isBuzz = !(ndx % 5)) {
+   		printf("Buzz");
    	}
-   	else if (isBuzz) {
-   		printf("Buzz\n");
+   	if (!isFizz && !isBuzz) {
+   		printf("%d", ndx);
    	}
-   	else {
-   		printf("%d\n", i);
-   	}
-   	
+
+   	printf("\n");
    }
 
    return 0;
